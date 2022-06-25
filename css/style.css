@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    color: 
+    #3b506c;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 2px solid #ddd;
+   
+}
+.container{
+    width: 90%;
+    overflow: hidden;
+    margin: 10px auto;
+    
+}
+.logo{
+    width: 10%;
+    float: left;
+    
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+      float: right;
+}
+.menu ul{
+   
+}
+.menu ul li{
+   float: left;
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px 10px;
+    display: inline-block;
+    color: 
+    #3b506c;
+}
+.menu ul li a:hover{
+    color: rgb(83, 145, 145);
+}
+/*Header End*/
+/*Main Section Start*/
+.main_content{
+    width: 55%;
+    margin: 50px auto;
+    text-align: center;
+}
+.m_top{}
+.m_top h1{
+    font-size: 48px;
+}
+.m_top h1 span{
+    display: block;
+    color: #008aff;
+}
+.m_top p{
+    margin: 30px 0;
+    line-height: 1.5;
+}
+.m_bottom{}
+.m_bottom img{
+    width: 100%;
+}
+
+/*Main Section End*/
+
+/*Successfull Area Start*/
+.content_s{
+    width: 60%;
+    margin: 80px auto;
+    overflow: hidden;
+   
+}
+.c_left{
+    width: 50% ;
+    float: left;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+   
+.c_left h1{
+    font-size: 48px;
+    color: #f15767;
+}
+.c_left p{
+   margin: 10px 0;
+    line-height: 1.5;
+}
+.c_right{
+    width: 50%;
+    float: right;
+}
+.c_right h2{
+  font-size: 48px;
+}
+/*Successfull Area End*/
+
+
+/*Item Section start*/
+.item_wrap{
+    width: 90%;
+    margin: 60px auto;
+    overflow: hidden;
+    
+
+    
+}
+.item{
+    width: 31.33%;
+    padding: 40px;
+    background-color: #fdebed;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 3%;
+}
+.item:last-child{
+    margin-right: 0;
+}
+.item img{
+    width:100%;
+}
+.item h2{
+    margin: 10px 0;
+}
+.item p{
+    line-height: 1.5;
+}
+.green{
+    background-color: #ebf9f4;
+}
+.red{
+    background-color: #fff7e8;
+}
+/*Item Section End*/
+
+
+/*Footer Start*/
+
+footer{
+    background-color: #008aff;
+    padding: 20px 0;
+    text-align: center;
+ 
+}
+footer p{
+    color: rgb(206, 202, 202);
+}
+footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+/*Footer End*/
